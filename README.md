@@ -1,34 +1,21 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next.js App Router Test
 
-## Getting Started
+This is a simple testing application built with Next.js to explore the usage of the app router. It provides a basic demonstration of fetching data from external APIs and displaying the results on a page. The application predicts age, gender, and nationality based on a given name using external APIs (Agify, Genderize, and Nationalize).
 
-First, run the development server:
+## Technologies Used
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+- **Next.js**: Next.js is a React framework for building server-side rendered and statically generated applications. It provides powerful features like automatic code splitting, server-side rendering, and routing out of the box.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **React**: React is a JavaScript library for building user interfaces. It allows you to create reusable UI components and efficiently manage the application state.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Tailwind CSS**: Tailwind CSS is a utility-first CSS framework that provides a set of pre-defined classes to quickly build responsive and customizable UI components.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Learned
 
-## Learn More
+During the development of this application, the following concepts and techniques were learned:
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Setting up a Next.js application with the necessary dependencies and folder structure.
+- Configuring routes and creating dynamic routes using Next.js app router.
+- Utilizing the `useRouter` hook from Next.js to handle navigation and access the route parameters.
+- Understanding the difference between server-side rendering and client-side rendering in Next.js.
+- Fetching data asynchronously in Next.js server components by making them client components using the `useEffect` hook.
